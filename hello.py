@@ -1,5 +1,5 @@
-def greetings(msg):
-   print(msg)
+from helper import greetings
+from names import NAMES
 
-
-greetings("hello")
+for name in NAMES:
+   greetings(name)

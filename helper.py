@@ -1,3 +1,3 @@
-def greetings(msg):
-   print(msg)
+def greetings(person):
+   print("Hello " + person + ".")
 
